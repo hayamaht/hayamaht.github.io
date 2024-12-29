@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>葉山的部屋</title>
-        <link>http://localhost:1313/</link>
-        <description>Recent content on 葉山的部屋</description>
+        <title>Pages on 葉山的部屋</title>
+        <link>http://localhost:1313/page/</link>
+        <description>Recent content in Pages on 葉山的部屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>hayama</copyright>
-        <lastBuildDate>Sun, 29 Dec 2024 16:14:30 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>My Test</title>
-        <link>http://localhost:1313/p/my-test/</link>
-        <pubDate>Sun, 29 Dec 2024 16:14:30 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/my-test/</guid>
-        <description>&lt;h2 id=&#34;my-test&#34;&gt;My Test
-&lt;/h2&gt;&lt;p&gt;This is a test post.&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
         <link>http://localhost:1313/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
