@@ -20,7 +20,49 @@ title = "葉山的部屋"
 weight = 2
 
 [languages.zh-tw.params.sidebar]
-subtitle = "我喜歡騎腳踏車"
+subtitle = "我喜歡寫程式。我也喜歡騎著腳踏車。"
+
+[[languages.zh-tw.menus.main]]
+name = "首頁"
+url = "/"
+weight = 10
+identifier = "home"
+
+[[languages.zh-tw.menus.main.params]]
+icon = "home"
+newTab = false
+
+[[languages.zh-tw.menus.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/hayamaht"
+
+[[languages.zh-tw.menus.social.params]]
+icon = "brand-github"
+
+[[languages.zh-tw.menus.social]]
+identifier = "twitter"
+name = "Twitter"
+url = "https://x.com/hayamamkt"
+
+[[languages.zh-tw.menus.social.params]]
+icon = "brand-twitter"
+
+[[languages.zh-tw.menus.social]]
+identifier = "instagram"
+name = "Instagram"
+url = "https://instagram.com/hayamamkt"
+
+[[languages.zh-tw.menus.social.params]]
+icon = "brand-instagram"
+
+[[languages.zh-tw.menus.social]]
+identifier = "facebook"
+name = "Facebook"
+url = "https://www.facebook.com/hayamamkt?locale=zh_TW"
+
+[[languages.zh-tw.menus.social.params]]
+icon = "brand-facebook"
 
 [services.disqus]
 shortname = "hayamaht-github-io"
@@ -55,7 +97,7 @@ rssFullContent = true
     src = "images/fm.jpg"
 
   [params.article]
-  math = false
+  math = true
   toc = true
   readingTime = true
 
@@ -69,38 +111,38 @@ rssFullContent = true
 
     [params.comments.disqusjs]
 
-    [params.comments.utterances]
-    issueTerm = "pathname"
+    # [params.comments.utterances]
+    # issueTerm = "pathname"
 
-    [params.comments.beaudar]
-    issueTerm = "pathname"
+    # [params.comments.beaudar]
+    # issueTerm = "pathname"
 
-    [params.comments.remark42]
+    # [params.comments.remark42]
 
-    [params.comments.vssue]
-    autoCreateIssue = false
+    # [params.comments.vssue]
+    # autoCreateIssue = false
 
-    [params.comments.waline]
-    emoji = [ "https://unpkg.com/@waline/emojis@1.0.1/weibo" ]
-    requiredMeta = [ "name", "email", "url" ]
+    # [params.comments.waline]
+    # emoji = [ "https://unpkg.com/@waline/emojis@1.0.1/weibo" ]
+    # requiredMeta = [ "name", "email", "url" ]
 
-      [params.comments.waline.locale]
-      admin = "Admin"
+    #   [params.comments.waline.locale]
+    #   admin = "Admin"
 
-    [params.comments.twikoo]
+    # [params.comments.twikoo]
 
-    [params.comments.cactus]
-    defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
-    serverName = "cactus.chat"
-    siteName = ""
+    # [params.comments.cactus]
+    # defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
+    # serverName = "cactus.chat"
+    # siteName = ""
 
-    [params.comments.giscus]
-    reactionsEnabled = 1
-    emitMetadata = 0
+    # [params.comments.giscus]
+    # reactionsEnabled = 1
+    # emitMetadata = 0
 
-    [params.comments.gitalk]
+    # [params.comments.gitalk]
 
-    [params.comments.cusdis]
+    # [params.comments.cusdis]
 
 [[params.widgets.homepage]]
 type = "search"
@@ -131,7 +173,7 @@ card = "summary_large_image"
 
 [params.defaultImage.opengraph]
 enabled = false
-local = false
+local = true
 
   [params.colorScheme]
   toggle = true
@@ -143,24 +185,24 @@ enabled = true
 [params.imageProcessing.content]
 enabled = true
 
-[menu]
-main = [ ]
+# [menu]
+# main = [ ]
 
-  [[menu.social]]
-  identifier = "github"
-  name = "GitHub"
-  url = "https://github.com/CaiJimmy/hugo-theme-stack"
+#   [[menu.social]]
+#   identifier = "github"
+#   name = "GitHub"
+#   url = "https://github.com/hayamaht"
 
-    [menu.social.params]
-    icon = "brand-github"
+#     [menu.social.params]
+#     icon = "brand-github"
 
-  [[menu.social]]
-  identifier = "twitter"
-  name = "Twitter"
-  url = "https://twitter.com"
+#   [[menu.social]]
+#   identifier = "twitter"
+#   name = "Twitter"
+#   url = "https://twitter.com"
 
-    [menu.social.params]
-    icon = "brand-twitter"
+#     [menu.social.params]
+#     icon = "brand-twitter"
 
 [related]
 includeNewer = true
