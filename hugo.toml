@@ -2,7 +2,7 @@ baseURL = 'https://hayamaht.github.io/'
 languageCode = 'zh-tw'
 title = '葉山的部屋'
 theme = 'hugo-theme-stack'
-copyright = "葉山"
+copyright = "hayama"
 DefaultContentLanguage = "zh-tw"
 hasCJKLanguage = false
 
@@ -42,18 +42,17 @@ rssFullContent = true
   [params.footer]
   since = 2024
 
-  [params.dateFormat]
-  published = "Jan 02, 2006"
-  lastUpdated = "Jan 02, 2006 15:04 MST"
+  # [params.dateFormat]
+  # published = "Jan 02, 2006"
+  # lastUpdated = "Jan 02, 2006 15:04 MST"
 
   [params.sidebar]
-  emoji = "🍥"
-  subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  emoji = "🌻"
 
     [params.sidebar.avatar]
     enabled = true
     local = true
-    src = "img/avatar.png"
+    src = "images/fm.jpg"
 
   [params.article]
   math = false
