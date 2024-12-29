@@ -23,7 +23,7 @@ weight = 2
 subtitle = "我喜歡騎腳踏車"
 
 [services.disqus]
-shortname = "hayamaht"
+shortname = "hayamaht-github-io"
 
 [services.googleAnalytics]
 
