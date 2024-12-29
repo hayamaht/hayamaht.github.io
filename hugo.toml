@@ -2,3 +2,4 @@ baseURL = 'https://hayamaht.github.io/'
 languageCode = 'zh-tw'
 title = 'My New Hugo Site'
 theme = 'hugo-theme-stack'
+
